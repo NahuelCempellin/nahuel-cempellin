@@ -25,7 +25,8 @@ export const CardsContent = [
     tipo: "Estudios",
     image: Mobile,
     descripcion: "Concepto de aplicacion para turnos desarrollado en Figma.",
-    deploy: "https://instituto-antonucci.vercel.app/",
+    deploy:
+      "https://www.figma.com/file/iGVxvT3fmhh3q7FmJXBHKt/SmartTurns?type=design&node-id=0%3A1&mode=design&t=xpgunNGg3LehJaib-1",
     tecnologias: ["Figma"],
     cliente: "",
     fecha: "08/08/2023",
@@ -35,7 +36,8 @@ export const CardsContent = [
     tipo: "Estudios",
     image: colefinder,
     descripcion: "Concepto de aplicacion para un buscador de colegios.",
-    deploy: "https://instituto-antonucci.vercel.app/",
+    deploy:
+      "https://www.figma.com/file/tYGoXfV4HGORkpVQNGbfal/ColeFinder?type=design&mode=design&t=xpgunNGg3LehJaib-1",
     tecnologias: ["Figma"],
     cliente: "",
     fecha: "08/08/2023",
@@ -45,7 +47,8 @@ export const CardsContent = [
     tipo: "Freelance",
     image: Vazalto,
     descripcion: "Concepto de aplicacion para una televisora Argentina.",
-    deploy: "https://instituto-antonucci.vercel.app/",
+    deploy:
+      "https://www.figma.com/file/y7rI0giH9bORbKWRcBZtd3/Vazalto?type=design&mode=design&t=xpgunNGg3LehJaib-1",
     tecnologias: ["Figma"],
     cliente: "",
     fecha: "08/08/2023",
