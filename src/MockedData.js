@@ -7,8 +7,19 @@ import Galu from "./assets/proyectos/Galu.png";
 import Mobile from "./assets/proyectos/Movile.png";
 import Vazalto from "./assets/proyectos/Portfolio.png";
 import colefinder from "./assets/proyectos/Colefinder.png";
+import ikigai from "./assets/proyectos/Ikigai.png";
 
 export const CardsContent = [
+  {
+    nombre: "Ikigai development",
+    tipo: "Estudios",
+    image: ikigai,
+    descripcion: "Pagina web de mi emprendimiento.",
+    deploy: "https://ikigai-web.vercel.app/",
+    tecnologias: ["React", "TailwindCss"],
+    cliente: "",
+    fecha: "08/08/2023",
+  },
   {
     nombre: "Smart Turns",
     tipo: "Estudios",

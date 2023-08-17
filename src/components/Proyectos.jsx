@@ -5,7 +5,7 @@ const Proyectos = () => {
   return (
     <div className=" w-[80%] flex items-center justify-center flex-col p-4 max-[800px]:w-full">
       <div className="p-2 flex items-center justify-center flex-col w-[80%] max-[800px]:w-full">
-        <h1 className="text-xl font-bold">¡Bienvenido a mi portafolios!</h1>
+        <h1 className="text-xl font-bold">¡Bienvenido a mi portfolio!</h1>
         <p className="p-6 font-light ">
           Aquí podrás ver una variedad de proyectos personales y profesionales
           en los cuales estuve participando este último año.{" "}
@@ -17,7 +17,7 @@ const Proyectos = () => {
         <ul className="w-full min-h-[110vh]  grid gap-5 md:grid-flow-row-dense md:grid-cols-2 lg:grid-cols-3 sm:grid-cols-2 ">
           {CardsContent.map((el, i) => {
             return (
-              <li key={i} className="w-full h-[150px] relative mb-32">
+              <li key={i} className="w-full h-[150px] relative mb-36">
                 <img
                   src={el.image}
                   alt={el.nombre}
