@@ -15,13 +15,28 @@ const Perfil = () => {
             <img src={perfil} alt="perfil image" className="mt-16" />
           </div>
           <div className="flex items-center justify-around w-full  p-2">
-            <a className="bg-white w-8 rounded-[100%] h-8 p-1 text-black flex items-center justify-center">
+            <a
+              className="bg-white w-8 rounded-[100%] h-8 p-1 text-black flex items-center justify-center"
+              href="https://github.com/NahuelCempellin"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <BrandGithub />
             </a>
-            <a className="bg-white w-8 rounded-[100%] h-8 p-1 text-black flex items-center justify-center">
+            <a
+              className="bg-white w-8 rounded-[100%] h-8 p-1 text-black flex items-center justify-center"
+              href="https://www.linkedin.com/in/nahuel-felipe-cempellin/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <BrandLinkedin />
             </a>
-            <a className="bg-white w-8 rounded-[100%] h-8 p-1 text-black flex items-center justify-center">
+            <a
+              className="bg-white w-8 rounded-[100%] h-8 p-1 text-black flex items-center justify-center"
+              href="https://www.instagram.com/nahuelcempellin/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <BrandInstagram />
             </a>
           </div>
