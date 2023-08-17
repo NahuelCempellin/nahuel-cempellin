@@ -13,13 +13,13 @@ const Proyectos = () => {
         </p>
       </div>
 
-      <div className="w-full min-h-[150vh] flex items-center justify-center ">
+      <div className="w-full min-h-[150vh] flex items-center justify-center min-[1800px]:min-h-[200vh] ">
         <section className="w-full min-h-[150vh]  grid gap-5 md:grid-flow-row-dense md:grid-cols-2 lg:grid-cols-3 sm:grid-cols-2 max-[640px]:min-h-[350vh]  ">
           {CardsContent.map((el, i) => {
             return (
               <article
                 key={i}
-                className="w-[100%] max-w-[500px]  h-[150px] relative "
+                className="w-[100%]  max-w-[500px] h-[150px]  relative "
               >
                 <img
                   src={el.image}
