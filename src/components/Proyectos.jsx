@@ -6,18 +6,21 @@ const Proyectos = () => {
     <div className=" w-[80%] flex items-center justify-center flex-col p-4 max-[800px]:w-full">
       <div className="p-2 flex items-center justify-center flex-col w-[80%] max-[800px]:w-full">
         <h1 className="text-xl font-bold">¡Bienvenido a mi portfolio!</h1>
-        <p className="p-6 font-light ">
+        <p className="p-6 font-light text-center">
           Aquí podrás ver una variedad de proyectos personales y profesionales
           en los cuales estuve participando este último año.{" "}
           <strong>¡Espero que sean de tu agrado!</strong>
         </p>
       </div>
 
-      <div className="w-full flex items-center justify-center ">
-        <ul className="w-full min-h-[110vh]  grid gap-5 md:grid-flow-row-dense md:grid-cols-2 lg:grid-cols-3 sm:grid-cols-2 ">
+      <div className="w-full min-h-[150vh] flex items-center justify-center ">
+        <section className="w-full min-h-[150vh]  grid gap-5 md:grid-flow-row-dense md:grid-cols-2 lg:grid-cols-3 sm:grid-cols-2 max-[640px]:min-h-[350vh]  ">
           {CardsContent.map((el, i) => {
             return (
-              <li key={i} className="w-full h-[150px] relative mb-36">
+              <article
+                key={i}
+                className="w-[100%] max-w-[500px]  h-[150px] relative "
+              >
                 <img
                   src={el.image}
                   alt={el.nombre}
@@ -50,10 +53,10 @@ const Proyectos = () => {
                   </div>
                   <p className="p-2 text-sm font-light">{el.descripcion}</p>
                 </div>
-              </li>
+              </article>
             );
           })}
-        </ul>
+        </section>
       </div>
     </div>
   );
