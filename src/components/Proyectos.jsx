@@ -19,7 +19,7 @@ const Proyectos = () => {
             return (
               <article
                 key={i}
-                className="w-[100%] h-[150px]  relative max-[600px]:mb-60"
+                className="w-[100%] h-[150px]  relative max-[600px]:mb-60 min-[1800px]:mb-80"
               >
                 <img
                   src={el.image}
