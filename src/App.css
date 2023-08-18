@@ -26,7 +26,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 
 #banish-box :hover #bg{
-  /* flex flex-col items-cemter justify-start */
+  
 
 display: flex;
 flex-direction: column;

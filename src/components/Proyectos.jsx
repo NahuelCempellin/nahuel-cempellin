@@ -31,7 +31,7 @@ const Proyectos = () => {
                   id="image"
                 />
                 <div
-                  className="  w-full h-[100%] p-3 mt-[-135px] font-bold absolute hidden "
+                  className="  w-full h-[100%] p-3 mt-[-149.5px] font-bold absolute hidden "
                   id="bg"
                 >
                   <a
