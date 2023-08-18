@@ -1,5 +1,6 @@
 import { ArrowDownLeft } from "tabler-icons-react";
 import { CardsContent } from "../MockedData";
+import nahuelCempellin from "../assets/NahuelCempellinCV.pdf";
 
 const Proyectos = () => {
   return (
@@ -11,6 +12,15 @@ const Proyectos = () => {
           en los cuales estuve participando este último año.{" "}
           <strong>¡Espero que sean de tu agrado!</strong>
         </p>
+        <div className="p-4 w-[80%] mb-2 flex items-center justify-around">
+          <a
+            className="bg-white font-bold rounded-xl pl-6 pr-6 pt-1 pb-1 text-black"
+            href={nahuelCempellin}
+            download="NahuelCempellinCV.pdf"
+          >
+            Descargar Cv
+          </a>
+        </div>
       </div>
 
       <div className="w-full min-h-[150vh] flex items-center justify-center  ">
