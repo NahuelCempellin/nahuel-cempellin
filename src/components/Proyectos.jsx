@@ -14,7 +14,10 @@ const Proyectos = () => {
       </div>
 
       <div className="w-full min-h-[150vh] flex items-center justify-center  ">
-        <section className="w-full min-h-[150vh]  grid gap-10 md:grid-flow-row-dense md:grid-cols-2 lg:grid-cols-3 sm:grid-cols-2 max-[640px]:min-h-[350vh]  ">
+        <section
+          className="w-full min-h-[150vh]  grid gap-10 md:grid-flow-row-dense md:grid-cols-2 lg:grid-cols-3 sm:grid-cols-2 max-[640px]:min-h-[350vh]  "
+          id="banish-box"
+        >
           {CardsContent.map((el, i) => {
             return (
               <article
@@ -28,7 +31,7 @@ const Proyectos = () => {
                   id="image"
                 />
                 <div
-                  className=" w-full h-[100%] p-3 mt-[-135px] font-bold absolute flex flex-col items-cemter justify-start"
+                  className="  w-full h-[100%] p-3 mt-[-135px] font-bold absolute hidden "
                   id="bg"
                 >
                   <a

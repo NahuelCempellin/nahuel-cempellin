@@ -25,7 +25,14 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 
-#image #bg{
+#banish-box :hover #bg{
+  /* flex flex-col items-cemter justify-start */
+
 display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: space-around;
+
+transition: 0.5s ease-in-out ;
 }
 
