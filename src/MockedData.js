@@ -12,8 +12,8 @@ import simply from "./assets/proyectos/Simmply.png";
 
 export const CardsContent = [
   {
-    nombre: "Ikigai development",
-    tipo: "Estudios",
+    nombre: "Simmply-commerce",
+    tipo: "Freelance",
     image: simply,
     descripcion: "Plantilla de ecommerce diseñada para pequeños emprendedores.",
     deploy: "https://simply-commerce.vercel.app/",
