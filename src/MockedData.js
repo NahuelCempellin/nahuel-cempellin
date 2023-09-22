@@ -8,15 +8,33 @@ import Mobile from "./assets/proyectos/Movile.png";
 import Vazalto from "./assets/proyectos/Portfolio.png";
 import colefinder from "./assets/proyectos/Colefinder.png";
 import ikigai from "./assets/proyectos/Ikigai.png";
+import simply from "./assets/proyectos/Simmply.png";
 
 export const CardsContent = [
   {
     nombre: "Ikigai development",
     tipo: "Estudios",
+    image: simply,
+    descripcion: "Plantilla de ecommerce diseñada para pequeños emprendedores.",
+    deploy: "https://simply-commerce.vercel.app/",
+    tecnologias: [
+      "React",
+      "Redux",
+      "TailwindCss",
+      "Node.js",
+      "Typescript",
+      "MongoDB",
+    ],
+    cliente: "",
+    fecha: "08/08/2023",
+  },
+  {
+    nombre: "Ikigai development",
+    tipo: "Estudios",
     image: ikigai,
     descripcion: "Pagina web de mi emprendimiento.",
-    deploy: "https://ikigai-web.vercel.app/",
-    tecnologias: ["React", "TailwindCss"],
+    deploy: "https://ikigaiastro.vercel.app/",
+    tecnologias: ["Astro", "TailwindCss"],
     cliente: "",
     fecha: "08/08/2023",
   },

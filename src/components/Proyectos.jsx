@@ -32,7 +32,7 @@ const Proyectos = () => {
             return (
               <article
                 key={i}
-                className="w-[100%] h-[150px]  relative max-[600px]:mb-32 min-[1800px]:mb-80"
+                className="w-[100%] h-[180px]   relative max-[600px]:mb-32 min-[1800px]:mb-80"
               >
                 <img
                   src={el.image}
@@ -41,7 +41,7 @@ const Proyectos = () => {
                   id="image"
                 />
                 <div
-                  className="  w-full h-[100%] p-3 mt-[-149.5px] font-bold absolute hidden "
+                  className="  w-full h-[100%] p-3 mt-[-180px] font-bold absolute hidden "
                   id="bg"
                 >
                   <a
@@ -52,17 +52,22 @@ const Proyectos = () => {
                   >
                     {el.nombre} <ArrowDownLeft className="rotate-180" />
                   </a>
-                  <div>
-                    {el.tecnologias.map((text, i) => {
-                      return (
-                        <a
-                          key={i}
-                          className="font-light text-sm bg-white text-black ml-2 p-1 rounded-sm"
-                        >
-                          {text}
-                        </a>
-                      );
-                    })}
+                  <div
+                    className="w-full overflow-x-scroll overflow-y-hidden p-2"
+                    id="card-y-container"
+                  >
+                    <div className="">
+                      {el.tecnologias.map((text, i) => {
+                        return (
+                          <a
+                            key={i}
+                            className="font-light text-sm bg-white text-black ml-2 p-1 rounded-sm"
+                          >
+                            {text}
+                          </a>
+                        );
+                      })}
+                    </div>
                   </div>
                   <p className="p-2 text-sm font-light">{el.descripcion}</p>
                 </div>
