@@ -33,7 +33,7 @@ export const CardsContent = [
     tipo: "Estudios",
     image: ikigai,
     descripcion: "Pagina web de mi emprendimiento.",
-    deploy: "https://ikigaiastro.vercel.app/",
+    deploy: "https://ikiastro.vercel.app/",
     tecnologias: ["Astro", "TailwindCss"],
     cliente: "",
     fecha: "08/08/2023",
