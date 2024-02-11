@@ -9,8 +9,53 @@ import Vazalto from "./assets/proyectos/Portfolio.png";
 import colefinder from "./assets/proyectos/Colefinder.png";
 import ikigai from "./assets/proyectos/Ikigai.png";
 import simply from "./assets/proyectos/Simmply.png";
+import budo from './assets/proyectos/BudoAcademy.png'
+import budoFigma from './assets/proyectos/BudoFigma.png'
+import SanMarcos from './assets/proyectos/SanMarcos.png'
+
 
 export const CardsContent = [
+  {
+    nombre: "Budo Academy",
+    tipo: "Personal",
+    image: budo,
+    descripcion: "Red social para artistas marciales (En desarrollo)",
+    deploy: "https://budoacademy.vercel.app/",
+    tecnologias: [
+      "React",
+      "Redux",
+      "TailwindCss",
+      "Node.js",
+      "Typescript",
+      "MongoDB",
+    ],
+    cliente: "",
+    fecha: "25/01/2024",
+  },
+  {
+    nombre: "SanMarcos Music (Figma)",
+    tipo: "Personal",
+    image: SanMarcos,
+    descripcion: "Diseño UX/UI de un reproductor de musica para la Universidad de San Marcos",
+    deploy: "https://www.figma.com/file/cyS7QXnYQfbXRcCkni4NFH/Reproductor-de-musica?type=design&node-id=184%3A222&mode=design&t=7pCnkYK8lXuuE9tN-1",
+    tecnologias: [
+      "Figma",
+    ],
+    cliente: "",
+    fecha: "01/12/2023",
+  },
+  {
+    nombre: "Budo Academy (Figma)",
+    tipo: "Freelance",
+    image: budoFigma,
+    descripcion: "Diseño UX/UI de Budo Academy",
+    deploy: "https://www.figma.com/file/9MMIUSADC4l1NEO0PhMMLQ/Budo-academy?type=design&node-id=101%3A4&mode=design&t=7pCnkYK8lXuuE9tN-1",
+    tecnologias: [
+      "Figma",
+    ],
+    cliente: "",
+    fecha: "01/12/2023",
+  },
   {
     nombre: "Simmply-commerce",
     tipo: "Freelance",

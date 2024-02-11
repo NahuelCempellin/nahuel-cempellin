@@ -4,7 +4,7 @@ import nahuelCempellin from "../assets/NahuelCempellinCV.pdf";
 
 const Proyectos = () => {
   return (
-    <div className=" w-[80%] flex items-center justify-center flex-col p-4 max-[800px]:w-full">
+    <div className=" w-[80%]  min-h-[250vh] flex items-center justify-start flex-col p-4 max-[800px]:w-full">
       <div className="p-2 flex items-center justify-center flex-col w-[80%] max-[800px]:w-full">
         <h1 className="text-xl font-bold">¡Bienvenido a mi portfolio!</h1>
         <p className="p-6 font-light text-center">
@@ -12,7 +12,7 @@ const Proyectos = () => {
           en los cuales estuve participando este último año.{" "}
           <strong>¡Espero que sean de tu agrado!</strong>
         </p>
-        <div className="p-4 w-[80%] mb-2 flex items-center justify-around">
+        <div className="p-4 w-[80%] mb-2 flex items-center justify-around ">
           <a
             className="bg-white font-bold rounded-xl pl-6 pr-6 pt-1 pb-1 text-black"
             href={nahuelCempellin}
@@ -23,9 +23,9 @@ const Proyectos = () => {
         </div>
       </div>
 
-      <div className="w-full min-h-[150vh] flex items-center justify-center  ">
+      <div className="w-full min-h-[200vh] flex items-center justify-center ">
         <section
-          className="w-full min-h-[150vh]  grid gap-10 md:grid-flow-row-dense md:grid-cols-2 lg:grid-cols-3 sm:grid-cols-2 max-[640px]:min-h-[350vh]  "
+          className="w-full min-h-[250vh]  grid gap-10 md:grid-flow-row-dense md:grid-cols-2 lg:grid-cols-3 sm:grid-cols-2 max-[640px]:min-h-[350vh]  "
           id="banish-box"
         >
           {CardsContent.map((el, i) => {
