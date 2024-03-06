@@ -23,16 +23,16 @@ const Proyectos = () => {
         </div>
       </div>
 
-      <div className="w-full min-h-[200vh] flex items-center justify-center ">
+      <div className="w-full min-h-screen flex items-start justify-center ">
         <section
-          className="w-full min-h-[250vh]  grid gap-10 md:grid-flow-row-dense md:grid-cols-2 lg:grid-cols-3 sm:grid-cols-2 max-[640px]:min-h-[350vh]  "
+         className='w-full  grid grid-cols-3 max-[800px]:grid-cols-2 max-[500px]:grid-cols-1'
           id="banish-box"
         >
           {CardsContent.map((el, i) => {
             return (
               <article
                 key={i}
-                className="w-[100%] h-[180px]   relative max-[600px]:mb-32 min-[1800px]:mb-80"
+                className="w-[calc(33.333% - 10px)] mb-1  relative "
               >
                 <img
                   src={el.image}
@@ -41,7 +41,7 @@ const Proyectos = () => {
                   id="image"
                 />
                 <div
-                  className="  w-full h-[100%] p-3 mt-[-180px] font-bold absolute hidden "
+                  className="w-full h-[190px] p-3 mt-[-190px] font-bold absolute hidden "
                   id="bg"
                 >
                   <a
