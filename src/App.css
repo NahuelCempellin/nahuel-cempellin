@@ -57,3 +57,12 @@ transition: 0.5s ease-in-out ;
 	background: rgba(0, 0, 0, 0.138);
 
 }
+
+
+#mesh{
+  background-color:#17191e;
+background-image:
+radial-gradient(at 100% 0%, hsla(198,69%,43%,1) 0px, transparent 50%),
+radial-gradient(at 0% 100%, hsla(339,2%,10%,1) 0px, transparent 50%),
+radial-gradient(at 3% 92%, hsla(240,0%,51%,1) 0px, transparent 50%);
+}

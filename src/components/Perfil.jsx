@@ -42,16 +42,16 @@ const Perfil = () => {
           </div>
         </div>
         <div className=" ml-4 p-2  flex items-start justify-center flex-col max-[552px]:items-center ">
-          <p className="text-xl font-extrabold text-[#34BEFC]">
+          <h1 className="text-3xl font-extrabold text-[#34BEFC]">
             Nahuel Cempellin
-          </p>
+          </h1>
           <p className="font-light">🗓️ 28 años</p>
           <p className="font-light">👨🏻‍💻 Fullstack developer / UX designer</p>
-          <p className="font-light flex items-center justify-center border-b pb-2">
+          <p className="font-light flex items-center justify-center border-b pb-4">
             <MapPin color="#34BEFC" />
             Mar del plata, Buenos aires, Argentina
           </p>
-          <p className="w-full -t mt-2 font-light text-sm p-2">
+          <p className="w-full -t mt-2 font-light text-sm p-1 pb-4">
            Artista marcial, un apasionado por la tecnologia y el crecimiento personal. Fullstack
             developer con preferencias por el frontend.
           </p>

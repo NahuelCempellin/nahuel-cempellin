@@ -6,7 +6,7 @@ const Proyectos = () => {
   return (
     <div className=" w-[80%]  min-h-[250vh] flex items-center justify-start flex-col p-4 max-[800px]:w-full">
       <div className="p-2 flex items-center justify-center flex-col w-[80%] max-[800px]:w-full">
-        <h1 className="text-2xl font-bold text-[#34BEFC]">¡Bienvenido a mi portfolio!</h1>
+        <h2 className="text-2xl font-bold text-[#34BEFC]">¡Bienvenido a mi portfolio!</h2>
         <p className="p-6 font-light text-center">
         🚀 ¡Bienvenido a mi portafolio! Soy Nahuel Cempellin, un apasionado desarrollador fullstack con 2 años de experiencia construyendo emocionantes aplicaciones web. Aquí encontrarás una fascinante variedad de proyectos personales y profesionales en los que he estado trabajando durante el último año. Desde aplicaciones innovadoras hasta soluciones prácticas, cada proyecto refleja mi dedicación y habilidades técnicas. ¡Espero que te encanten tanto como a mí! 🌟 En este espacio, estoy encantado de compartir mis logros y hacer una exposición detallada de mis proyectos para que puedas explorar mi trabajo y descubrir todo lo que tengo para ofrecer en el mundo del desarrollo web. <strong>¡Adelante, disfruta de tu recorrido por mi portafolio! 🚀</strong>
         </p>
