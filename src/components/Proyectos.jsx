@@ -8,9 +8,7 @@ const Proyectos = () => {
       <div className="p-2 flex items-center justify-center flex-col w-[80%] max-[800px]:w-full">
         <h1 className="text-xl font-bold">¡Bienvenido a mi portfolio!</h1>
         <p className="p-6 font-light text-center">
-          Aquí podrás ver una variedad de proyectos personales y profesionales
-          en los cuales estuve participando este último año.{" "}
-          <strong>¡Espero que sean de tu agrado!</strong>
+        🚀 ¡Bienvenido a mi portafolio digital! Soy Nahuel Cempellin, un apasionado desarrollador fullstack con 2 años de experiencia construyendo emocionantes aplicaciones web. Aquí encontrarás una fascinante variedad de proyectos personales y profesionales en los que he estado trabajando durante el último año. Desde aplicaciones innovadoras hasta soluciones prácticas, cada proyecto refleja mi dedicación y habilidades técnicas. ¡Espero que te encanten tanto como a mí! 🌟 En este espacio, estoy encantado de compartir mis logros y hacer una exposición detallada de mis proyectos para que puedas explorar mi trabajo y descubrir todo lo que tengo para ofrecer en el mundo del desarrollo web. <strong>¡Adelante, disfruta de tu recorrido por mi portafolio! 🚀</strong>
         </p>
         <div className="p-4 w-[80%] mb-2 flex items-center justify-around ">
           <a
@@ -32,7 +30,7 @@ const Proyectos = () => {
             return (
               <article
                 key={i}
-                className="w-[calc(33.333% - 10px)] mb-1  relative "
+                className="w-[calc(33.333% - 10px)] mb-1 mr-1  relative "
               >
                 <img
                   src={el.image}
