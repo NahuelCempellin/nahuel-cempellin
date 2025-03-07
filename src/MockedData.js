@@ -12,9 +12,41 @@ import simply from "./assets/proyectos/Simmply.png";
 import budo from './assets/proyectos/BudoAcademy.png'
 import budoFigma from './assets/proyectos/BudoFigma.png'
 import SanMarcos from './assets/proyectos/SanMarcos.png'
-
+import Idoc from './assets/proyectos/Idoc.png'
+import curemd from './assets/proyectos/Curemd.png'
+import curemdio from './assets/proyectos/curemdio.png'
 
 export const CardsContent = [
+  {
+    nombre: "CureMD.io",
+    tipo: "Contractor",
+    image: curemdio,
+    descripcion: "Landing page para una plataforma de telemedicina.",
+    deploy: "https://curemd.io/",
+    tecnologias: ["React", "TailwindCss", "Node.js"],
+    cliente: "MoneyFy",
+    fecha: "15/02/2024",
+  },
+  {
+    nombre: "CureMD Plus",
+    tipo: "Contractor",
+    image: curemd,
+    descripcion: "Landing page para un seguro médico de la plataforma de CureMD.io.",
+    deploy: "https://plus.curemd.io",
+    tecnologias: ["React", "Next.js", "TailwindCss"],
+    cliente: "MoneyFy",
+    fecha: "20/02/2024",
+  },
+  {
+    nombre: "iDoc",
+    tipo: "Contractor",
+    image: Idoc,
+    descripcion: "Chatbot médico con cumplimiento HIPAA.",
+    deploy: "https://idoc.bot/",
+    tecnologias: ["React", "Node.js", "MongoDB", "ChatGPT API"],
+    cliente: "MoneyFy",
+    fecha: "10/03/2024",
+  },
   {
     nombre: "Budo Academy",
     tipo: "Personal",
